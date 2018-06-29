@@ -32,3 +32,4 @@ perl -pe '/^>/ ? print "\n" : chomp' SILVA_128_LSURef_tax_silva_dna.fasta > SILV
 
 #Remove first letter of a string
 sed 's/^.\{1\}//g' gb203_pr2_all_10_28_97p_uparse.txt > gb203_pr2_all_10_28_97p_uparse_1.txt
+
